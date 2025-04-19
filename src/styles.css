@@ -1,0 +1,332 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p:hover
+{
+    cursor: default;
+}
+header p:hover
+{
+    cursor: pointer;
+}
+body
+{
+    background-color: #F5EEDC;
+}
+header
+{
+    background-color: #543A14;
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+header p
+{
+    color: #F5EEDC;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navbar
+{
+    height: 70px;
+    width: 500px;
+    margin-left: auto;
+    
+}
+.navbar button
+{
+    position: relative;
+    background-color: #543A14;
+    color: #F5EEDC;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    height: 70px;
+    width: 60px;
+    cursor: pointer;
+    margin-right:90px ;
+}
+.navbar button:hover
+{
+    background-color: #F5EEDC;
+    color: #543A14;
+    transition: 0.3s;
+}
+.navbar button:active
+{
+    background-color: #543A14;
+    color: #F5EEDC;
+    transition: 0.3s;
+}
+.navbar button:focus
+{
+    outline: none;
+}
+#content
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.welcome
+{
+    height:  87.3vh;
+    width: 100%;
+    display: flex;
+}
+.writing
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.writing h1
+{
+    font-size: 40px;
+    color: #543A14;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+.writing p
+{
+    font-size: 18px; /* Set the desired font size */
+    color: #543A14; /* Optional: Match the color with the h1 */
+    font-family: 'Courier New', Courier, monospace; /* Optional: Ensure consistent font */
+    line-height: 1.5; 
+    text-align: center;
+    max-width: 80%;
+    font-weight: 550;
+}
+.photo
+{
+    height: 100%;
+    width: 40%;
+    background-image: url("https://fornopiombo.com/cdn/shop/articles/The-Best-Pizza-Dough-Recipe-for-A-Wood-Fired-Pizza-Oven.jpg?v=1650287947");
+    background-position: center;
+    background-size: cover;
+}
+.pizza-image
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    
+}
+.options
+{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+.services
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services svg
+{
+    height: 70px;
+    width: 70px;
+    color: #543A14;
+    margin-bottom: 20px;
+    fill: #543A14;
+}
+.services p
+{
+    font-size: 15px;
+    color: #543A14;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+}
+footer
+{
+    height: 70px;
+    width: 100%;
+    background-color: #543A14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5EEDC;
+}
+.periods
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+.menu
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu-items
+{
+    border: 2px solid black;
+    height: 150px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+.menu-items h1
+{
+    font-size: 25px;
+    color: #543A14;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.menu-items p
+{
+    font-size: 17px;
+    color: #543A14;
+    margin-top: 5px;
+    font-weight: 550;
+}
+.title
+{
+    width: 100%;
+    height:20%;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.about-title
+{
+    height: 400px;
+}
+.about-title h1
+{
+    
+    font-size: 30px;
+    color: #543A14;
+    font-weight: 550;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.about-title p
+{
+    font-size: 18px; /* Set the desired font size */
+    color: #543A14; /* Optional: Match the color with the h1 */
+    font-family: 'Courier New', Courier, monospace; /* Optional: Ensure consistent font */
+    line-height: 1.5; 
+    text-align: center;
+    max-width: 60%;
+    font-weight: 550;
+    margin-left: 250px;
+    
+}
+#about-img
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+#pizzaimg
+{
+   width: 90%;
+   height: 150px;
+  margin-left:65px;
+  margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+.title h1
+{
+    font-size: 30px;
+    color: #543A14;
+    font-weight: 550;
+    margin-bottom: 3px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+.hours h1
+{
+    font-size: 30px;
+    color: #543A14;
+    font-weight: 550;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hours
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hours p
+{
+    font-size: 18px; /* Set the desired font size */
+    color: #543A14; /* Optional: Match the color with the h1 */
+    font-family: 'Courier New', Courier, monospace; /* Optional: Ensure consistent font */
+    line-height: 1.5; 
+    text-align: center;
+    max-width: 60%;
+    font-weight: 550;
+    margin-top: 20px;
+}
+.phone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.phone p
+{
+    font-size: 18px; /* Set the desired font size */
+    color: #543A14; /* Optional: Match the color with the h1 */
+    font-family: 'Courier New', Courier, monospace; /* Optional: Ensure consistent font */
+    line-height: 1.5; 
+    text-align: center;
+    max-width: 60%;
+    font-weight: 550;
+    margin-top: 20px;
+}
